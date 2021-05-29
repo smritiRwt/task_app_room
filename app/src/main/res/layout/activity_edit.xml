@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".ui.EditActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edit"
+    android:inputType="text"
+    android:padding="10dp"
+    android:background="@drawable/edittext_border"
+    android:layout_margin="10dp"
+    android:hint="@string/update_task"
+    android:autofillHints="no"
+    android:textSize="15sp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update"
+            android:text="@string/Update"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:text="@string/cancel"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+</LinearLayout>

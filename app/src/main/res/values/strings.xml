@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Note creator</string>
+    <string name="addtask">add task</string>
+    <string name="Add_notes">Add a note</string>
+    <string name="update_task">update task</string>
+    <string name="Update">Update</string>
+    <string name="cancel">cancel</string>
+</resources>
